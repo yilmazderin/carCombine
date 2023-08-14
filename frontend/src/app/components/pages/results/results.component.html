@@ -1,0 +1,33 @@
+<ul>
+    <li *ngFor="let car of cars">
+        <a routerLink="/car/{{car.id}}">
+            <img [src]="car.imageUrl" [alt]="car.name">
+            <div class="content">
+                <div class="car-description">
+                    <div class="make">
+                        {{car.make}}
+                    </div>
+                    <div class="model">
+                        {{car.model}}
+                    </div>
+                </div>
+                <span class="favourite {{car.favourite?'':'not'}}">
+                    ❤
+                </span>
+                <div class="price">
+                    {{car.price | currency}}
+                </div>
+                <div class="website">
+                    <span>
+                        <img [src]="car.website" [alt]="car.name">
+                    </span>
+                </div>
+                <div class="mileage">
+                    <span>
+                        {{car.mileage}} miles
+                    </span>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
