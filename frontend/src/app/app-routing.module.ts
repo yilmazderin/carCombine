@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ResultsComponent } from './components/pages/results/results.component';
+import { HomeComponent } from './components/pages/home/home.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'', component: ResultsComponent},
+  {path:'search/:searchTerm', component: ResultsComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

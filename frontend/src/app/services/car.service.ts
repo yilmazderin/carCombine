@@ -12,4 +12,8 @@ export class CarService {
   getAll():Car[]{
     return sample_cars
   }
+
+  getAllCarsBySearchTerm(searchTerm: string){
+    return this.getAll().filter(car => car.name.toLowerCase().includes(searchTerm.toLowerCase()))
+  }
 }
