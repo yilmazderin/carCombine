@@ -9,4 +9,5 @@ export class Car{
     make!: string;
     model!: string;
     website!: string;
+    logo!: string;
 }

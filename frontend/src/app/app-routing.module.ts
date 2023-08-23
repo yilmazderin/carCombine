@@ -4,7 +4,7 @@ import { ResultsComponent } from './components/pages/results/results.component';
 import { HomeComponent } from './components/pages/home/home.component';
 
 const routes: Routes = [
-  {path:'', component: ResultsComponent},
+  {path:'', component: HomeComponent},
   {path:'search/:searchTerm', component: ResultsComponent}
 ];
 

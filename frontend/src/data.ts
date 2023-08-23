@@ -11,7 +11,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/bmw.jpeg",
         make: "BMW",
         model: "3 series",
-        website: "assets/images/icons/at.jpg"
+        website: "assets/images/icons/at.jpg",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "2",
@@ -23,7 +24,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/chrysler.jpeg",
         make: "Chrysler",
         model: "Pacifica",
-        website: "assets/images/icons/fbmp.png"
+        website: "assets/images/icons/fbmp.png",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "3",
@@ -35,7 +37,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/ferrari.jpeg",
         make: "Ferrari",
         model: "458",
-        website: "assets/images/icons/kj.jpg"
+        website: "https://www.autotrader.ca/a/ford/bronco/tilbury/ontario/5_58635606_on20071114160159655/?showcpo=ShowCpo&ncse=no&ursrc=xpl&urp=1&urm=3&pc=N9K%201E3&sprx=100",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "4",
@@ -47,7 +50,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/ford.jpeg",
         make: "Ford",
         model: "F-150",
-        website: "assets/images/icons/eb.webp"
+        website: "assets/images/icons/eb.webp",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "5",
@@ -59,7 +63,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/honda.jpeg",
         make: "Honda",
         model: "Civic",
-        website: "assets/images/icons/at.jpg"
+        website: "assets/images/icons/at.jpg",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "6",
@@ -71,7 +76,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/hyundai.jpeg",
         make: "Hyundai",
         model: "Elantra",
-        website: "assets/images/icons/fbmp.png"
+        website: "assets/images/icons/fbmp.png",
+        logo: "assets/images/icons/kj.jpg"
     },
      {
         id: "1",
@@ -83,7 +89,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/bmw.jpeg",
         make: "BMW",
         model: "3 series",
-        website: "assets/images/icons/at.jpg"
+        website: "assets/images/icons/at.jpg",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "2",
@@ -95,7 +102,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/chrysler.jpeg",
         make: "Chrysler",
         model: "Pacifica",
-        website: "assets/images/icons/fbmp.png"
+        website: "assets/images/icons/fbmp.png",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "3",
@@ -107,7 +115,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/ferrari.jpeg",
         make: "Ferrari",
         model: "458",
-        website: "assets/images/icons/kj.jpg"
+        website: "assets/images/icons/kj.jpg",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "4",
@@ -119,7 +128,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/ford.jpeg",
         make: "Ford",
         model: "F-150",
-        website: "assets/images/icons/eb.webp"
+        website: "assets/images/icons/eb.webp",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "5",
@@ -131,7 +141,8 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/honda.jpeg",
         make: "Honda",
         model: "Civic",
-        website: "assets/images/icons/at.jpg"
+        website: "assets/images/icons/at.jpg",
+        logo: "assets/images/icons/kj.jpg"
     },
     {
         id: "6",
@@ -143,6 +154,7 @@ export const sample_cars: Car[] = [
         imageUrl: "assets/images/cars/hyundai.jpeg",
         make: "Hyundai",
         model: "Elantra",
-        website: "assets/images/icons/fbmp.png"
+        website: "assets/images/icons/fbmp.png",
+        logo: "assets/images/icons/kj.jpg"
     }
 ]

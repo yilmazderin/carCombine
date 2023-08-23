@@ -1,8 +1,8 @@
 <h1>Your dream car is one click away!</h1>
 <div>
-    <input #s type="text" placeholder="Car Make">
+    <input #s type="text" placeholder="Car Make" [value]="searchTerm">
     <input #s type="text" placeholder="Car Model">
     <input #s type="text" placeholder="Location">
     <input #s type="text" placeholder="Maximum Price">
-    <button routerLink="search/ford">Search</button>
+    <button (click)="search(s.value)">Search</button>
 </div>

@@ -3,7 +3,7 @@
 <h3>Your search results...</h3>
 <ul>
     <li *ngFor="let car of cars">
-        <a routerLink="/car/{{car.id}}">
+        <a [href]="car.website" target="_blank">
             <img [src]="car.imageUrl" [alt]="car.name">
             <div class="content">
                 <div class="car-description">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="website">
                     <span>
-                        <img [src]="car.website" [alt]="car.name">
+                        <img [src]="car.logo" [alt]="car.name">
                     </span>
                 </div>
                 <div class="mileage">
